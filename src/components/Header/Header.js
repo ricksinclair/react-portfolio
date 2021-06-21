@@ -14,13 +14,13 @@ const Header = (props) => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/react-portfolio/About">About</NavLink>
+            <NavLink to="/About">About</NavLink>
           </li>
           <li>
-            <NavLink to="/react-portfolio/Projects">Projects</NavLink>
+            <NavLink to="//Projects">Projects</NavLink>
           </li>
           <li>
-            <NavLink to="/react-portfolio/Contact">Contact</NavLink>
+            <NavLink to="/Contact">Contact</NavLink>
           </li>
         </ul>
       </div>
