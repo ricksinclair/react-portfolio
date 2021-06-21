@@ -11,16 +11,16 @@ function App() {
       <Header />
 
       <Switch>
-        <Route path="/home" exact>
+        <Route path="/home">
           <Home />
         </Route>
         <Route path="/" exact>
           <Redirect to="/home" />
         </Route>
-        <Route path="/about" exact>
+        <Route path="/about">
           <About />
         </Route>
-        <Route path="/contact" exact>
+        <Route path="/contact">
           <Contact />
         </Route>
 
