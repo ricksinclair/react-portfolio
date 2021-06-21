@@ -1,0 +1,47 @@
+* {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+a:hover,
+:active,
+:visited {
+  color: black;
+  font-size: 15pt;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  align-content: center;
+  margin: auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.brand {
+  position: relative;
+
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.brand:hover {
+  position: relative;
+  font-size: 15pt;
+
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
