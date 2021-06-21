@@ -14,7 +14,7 @@ function App() {
         <Route path="react-portfolio/home">
           <Home />
         </Route>
-        <Route path="/react-portfolio">
+        <Route path="/">
           <Redirect to="react-portfolio/home" />
         </Route>
         <Route path="/react-portfolio/about">

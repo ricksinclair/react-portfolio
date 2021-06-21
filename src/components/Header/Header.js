@@ -11,7 +11,7 @@ const Header = (props) => {
       <div>
         <ul className={styles["header-nav"]}>
           <li>
-            <NavLink to="/react-portfolio/">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
             <NavLink to="/react-portfolio/About">About</NavLink>
