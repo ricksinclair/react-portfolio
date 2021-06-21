@@ -3,7 +3,7 @@ import About from "./pages/About/AboutPage";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/ContactPage/ContactPage";
 import Header from "./components/Header/Header";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import NotFound from "./pages/NotFound/NotFound";
 function App() {
   return (
@@ -11,8 +11,11 @@ function App() {
       <Header />
 
       <Switch>
-        <Route path="/" exact>
+        <Route path="/home" exact>
           <Home />
+        </Route>
+        <Route path="/" exact>
+          <Redirect to="/home" />
         </Route>
         <Route path="/about" exact>
           <About />
