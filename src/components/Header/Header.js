@@ -11,16 +11,16 @@ const Header = (props) => {
       <div>
         <ul className={styles["header-nav"]}>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/react-portfolio/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/About">About</NavLink>
+            <NavLink to="/react-portfolio/About">About</NavLink>
           </li>
           <li>
-            <NavLink to="/Projects">Projects</NavLink>
+            <NavLink to="/react-portfolio/Projects">Projects</NavLink>
           </li>
           <li>
-            <NavLink to="/Contact">Contact</NavLink>
+            <NavLink to="/react-portfolio/Contact">Contact</NavLink>
           </li>
         </ul>
       </div>
